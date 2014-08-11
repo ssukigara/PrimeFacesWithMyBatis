@@ -260,7 +260,6 @@ public class TableBean implements Serializable, SelectableDataModel<PersonModel>
      * @param event SelectEvent
      */
     public void onRowSelect(SelectEvent event) {
-        System.out.println("#onRowSelect");
         changeBtnStatus();
     }
 
@@ -270,7 +269,6 @@ public class TableBean implements Serializable, SelectableDataModel<PersonModel>
      * @param event UnselectEvent
      */
     public void onRowUnselect(UnselectEvent event) {
-        System.out.println("#onRowUnselect");
         selectedPerson = null;
         changeBtnStatus();
     }
