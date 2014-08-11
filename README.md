@@ -1,10 +1,7 @@
 PrimeFacesWithMyBatis
 =====================
 
-Sample code using PrimeFaces with MyBatis
-
-
-# Sample for JSF/PrimeFaces using MyBatis with MySQL
+Sample for JSF/PrimeFaces using MyBatis with MySQL
 
 ## OverView
 
